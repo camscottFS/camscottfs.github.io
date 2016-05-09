@@ -58,6 +58,12 @@ ol {
 	color: #333;
 }
 
+ul {
+	font-family: ProximaBold;
+	color: #333;
+}
+
+
 li {
 	height: 35px;
 }
@@ -94,6 +100,16 @@ span {
 }
 
 /* COMPONENTS ============================== */
+
+.color{
+	color: #485175;
+	height: 20px;
+	width: 20px;
+}
+
+.last {
+	margin-bottom: -15px;
+}
 
 .componenth2 {
 	margin: 5px 0px -10px 0px;
@@ -137,7 +153,6 @@ span {
 
 input[type="submit"] {
 	font-size: 15px;
-	margin-top: -30px;
 	font-family: ProximaBold;
 	text-transform: uppercase;
 	color: #252525;
