@@ -2,3 +2,66 @@
 ============================================================
 ============================================================*/
 
+body {
+	height: 100%;
+}
+
+.logo {
+	position: relative;
+	bottom: 600px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.two {
+	position: relative;
+	bottom: 600px;
+}
+
+h3 {
+	position: relative;
+	bottom: 1400px;
+	color: #ccc;
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+h2 {
+	margin-top: 20px;
+	width: 600px;
+	position: relative;
+	bottom: 1400px;
+	left: 640px;
+	color: #e8e361;
+	text-align: center;
+	font-weight: bold;
+	font-size: 46px;
+	text-transform: uppercase;
+}
+
+.demonp {
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 80px;
+	bottom: 1400px;
+	left: 580px;
+	color: #fff;
+	text-align: center;
+	width: 700px;
+	font-size: 20px;
+}
+
+.dhicon {
+	margin-left: 120px;
+}
+
+.images {
+	display: inline;
+	margin-top: 100px;
+	position: relative;
+	bottom: 1400px;
+	left: 600px;
+}
