@@ -1,18 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>WSP Component: Firstname Lastname</title>
+	<title>WSP Component: Cameron Scott</title>
 
-	<link rel="stylesheet" type="text/css" href="../../css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="component.css" />
-
 	
 </head>
 <body>
 
 	<!-- Component -->
 
+	<div id="component">
+    
+	<h1 class="page-title">jquery-circle-progress</h1>
+
+	<div class="circles">
+    <div class="first circle"><canvas height="100" width="100"></canvas>
+        <span>no <br> animation</span>
+    </div>
+
+    <div class="second circle"><canvas height="100" width="100"></canvas>
+        <strong>100<i>%</i></strong>
+        <span>animation <br> progress</span>
+    </div>
+
+    <div class="third circle"><canvas height="100" width="100"></canvas>
+        <strong>.75</strong>
+        <span>value <br> progress</span>
+    </div>
+
+    <div class="forth circle"><canvas height="100" width="100"></canvas>
+        <span>custom angle, <br> value update</span>
+    </div>
+
+    <div id="last" class="fifth circle" data-value="0.9" data-size="60" data-thickness="20" data-animation-start-value="1.0" data-fill="{
+            &quot;color&quot;: &quot;rgba(0, 0, 0, .3)&quot;,
+            &quot;image&quot;: &quot;http://i.imgur.com/pT0i89v.png&quot;
+        }" data-reverse="true"><canvas height="60" width="60"></canvas>
+        <span id="lastspan">image fill, <br> custom sizes</span>
+    </div>
+	</div>
+    
+    </div>
+
 	<!-- End Component -->
 	
 </body>
+
+<script src="jquery.js"></script>
+<script src="progress.js"></script>
+<script src="main.js"></script>
+
 </html>
