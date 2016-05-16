@@ -185,7 +185,7 @@ footer p {
 	color: #009BFF;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1080px) {
 	
 	p {
 		font-size: 20px;
