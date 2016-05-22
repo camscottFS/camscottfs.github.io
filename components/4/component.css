@@ -9,7 +9,6 @@
 
 .component {
 	margin: 0 auto;
-	width: 50%;
 	height: 250px;
 	background:url(images/background.png);
 }
@@ -21,20 +20,14 @@ img {
 }
 
 .socialmedia {
-	position: relative;
-	top: 50px;
-	padding-left: 340px;
-	display: inline;
-	margin: 0 auto;
-	width: 50%;
+	margin: 0px auto;
+	padding-top: 50px;
+	width: 275px;
 }
 
 ul {
-  position: relative;
-  top: 60px;
   list-style: none;
-  margin: 0;
-  padding: 0;
+  padding-top: 15px;
   text-align: center;
   text-transform: uppercase;
   color: #fff;
@@ -65,7 +58,7 @@ a:hover {
 }
 
 .bottom {
-	margin-top: 20px;
+	margin-top: 10px;
 	font-size: 14px;
 }
 
@@ -95,4 +88,45 @@ span {
 
 .space {
 	letter-spacing: 2px;
+}
+
+/* responsive */
+
+@media (max-width: 400px) {
+	
+	.component {
+	margin: 0 auto;
+	height: 100%;
+	}
+	
+	.top li{
+		transition: all 1s ease 0s;
+		-o-transition: all 1s ease 0s;
+		-moz-transition: all 1s ease 0s;
+		-webkit-transition: all 1s ease 0s;
+		display: block;
+		margin-top: 3px;
+	}
+	
+	.bottom li{
+		transition: all 1s ease 0s;
+		-o-transition: all 1s ease 0s;
+		-moz-transition: all 1s ease 0s;
+		-webkit-transition: all 1s ease 0s;
+		display: block;
+		margin-top: 3px;
+	}
+	
+	.bottom ul {
+		height: 133px;
+	}
+	
+	.last {
+		margin-bottom: 30px;
+	}
+	
+	span {
+		display: none;
+	}
+		
 }

@@ -7,6 +7,32 @@ body {
 	color: #0082d6;
 }
 
+.logo {
+	width: 450px;
+	height: 200px;
+	background: url(../images/logo.png);
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.social {
+	position: fixed;
+	margin-left: 920px;
+	margin-top: -100px;
+}
+
+.social ul {
+	list-style: none;
+}
+
+.social li {
+	margin-top: 5px;
+	color: #0082d6;
+	font-size: 26px;
+	cursor: pointer;
+}
+
 a {
 	font-family: ProximaBold;
 	color: #009BFF;
@@ -187,12 +213,27 @@ footer p {
 
 @media only screen and (max-width: 1080px) {
 	
-	p {
-		font-size: 20px;
+	.social {
+		position: absolute;
+		margin-left: 185px;
+		margin-top: -55px;
+	}
+
+	.social ul {
+		list-style: none;
+	}
+
+	.social li {
+		display: inline;
+		margin-top: 5px;
+		margin-left: 15px;
+		color: #0082d6;
+		font-size: 26px;
+		cursor: pointer;
 	}
 	
-	#header {
-		margin: 0 auto;
+	p {
+		font-size: 20px;
 	}
 	
 	#about {
@@ -213,8 +254,8 @@ footer p {
 	
 	.me {
 		display: block;
-    margin-left: auto;
-    margin-right: auto;
+   	 	margin-left: auto;
+    	margin-right: auto;
 		width: 200px;
 		height: 200px;
 		float: none;
@@ -226,18 +267,23 @@ footer p {
 	}
 	
 	.components {
-	background: #333333;
-	width: 100%;
-	height: 100%;
-	margin: 20px auto;
-	border: 1px solid #333333;
-	border-radius: 3px;
-}
+		background: #333333;
+		width: 100%;
+		height: 100%;
+		margin: 20px auto;
+		border: 1px solid #333333;
+		border-radius: 3px;
+	}
 
 @media only screen and (max-width: 500px) {
 	
-	.inner {
-		width: 100%;
+	.logo {
+		width: 450px;
+		height: 200px;
+		background: url(../images/logo.png);
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
 	}
 	
 	.me {
@@ -246,13 +292,13 @@ footer p {
 	}
 	
 	.components {
-	background: #333333;
-	width: 100%;
-	height: 100%;
-	margin: 20px auto;
-	border: 1px solid #333333;
-	border-radius: 3px;
-}
+		background: #333333;
+		width: 100%;
+		height: 100%;
+		margin: 20px auto;
+		border: 1px solid #333333;
+		border-radius: 3px;
+	}
 
 	img {
 		width: 100%;

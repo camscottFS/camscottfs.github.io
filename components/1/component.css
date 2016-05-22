@@ -2,6 +2,17 @@
 ============================================================
 ============================================================*/
 
+@font-face {
+    font-family: ProxBold;
+    src: url(fonts/ProximaNovaAltBold.otf);
+}
+
+@font-face {
+    font-family: ProxReg;
+    src: url(fonts/ProximaNovaAltRegular.otf);
+}
+
+
 body {
 	height: 100%;
 }
@@ -14,12 +25,31 @@ body {
     margin-right: auto;
 }
 
+.split {
+	position: relative;
+	bottom: 540px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	z-index: 1;
+}
+
+.split2 {
+	position: relative;
+	bottom: 1130px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	z-index: 1;
+}
+
 .two {
 	position: relative;
 	bottom: 600px;
 }
 
 h3 {
+	font-family: ProxBold;
 	position: relative;
 	bottom: 1400px;
 	color: #ccc;
@@ -30,6 +60,7 @@ h3 {
 }
 
 h2 {
+	font-family: ProxBold;
 	margin-top: 20px;
 	width: 600px;
 	position: relative;
@@ -43,6 +74,7 @@ h2 {
 }
 
 .demonp {
+	font-family: ProxReg;
 	position: relative;
 	margin-top: 20px;
 	margin-bottom: 80px;

@@ -6,6 +6,25 @@
     font-family: DIY;
     src: url(fonts/MullerExtraBold.ttf);
 }
+@font-face {
+    font-family: P;
+    src: url(fonts/MullerThin.ttf);
+}
+
+.featurecontain {
+	margin: 0 auto;
+}
+
+i {
+	float: right;
+	padding-right: 10px;
+	color: #ccc;
+	cursor: pointer;
+}
+
+i:hover {
+	color: #666565;
+}
 
 .header {
 	margin-left: 20px;
@@ -44,8 +63,10 @@ h2 {
 	padding-top: 10px;
 	font-size: 20px;
 	width: 260px;
-	color: #5f5f5f;
+	height: 95px;
+	color: #000;
 	text-decoration-color: #E18728;
+	font-family: P;
 }
 
 h2:hover {
@@ -75,28 +96,33 @@ span {
 	margin-top: 10px;
 	color: #8A8A8A;
 	letter-spacing: 2px;
+	font-family: P;
 }
 
 span:hover {
-	color: #252525;
+	color: #000;
 }
 
 .container-information {
 	padding-top: 15px;
 	padding-left: 15px;
+	height: 175px;
 }
 
 p {
+	font-size: 14px;
+	font-family: P;
 	display: inline;
 	color: #8A8A8A;
 }
 
-p:hover {
-	color: #252525;
+a p:hover {
+	color: #565656;
 }
 
 .when {
 	float: right;
+	margin-top: 2px;
 	padding-right: 15px;
 	padding-bottom: 15px;
 }
@@ -120,4 +146,28 @@ p:hover {
 .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
+}
+
+/* responsive */
+
+@media (max-width: 1000px) {
+	
+	.header {
+		width: 645px;
+	}
+	
+	.featured {
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 600px) {
+	
+	.header {
+		width: 300px;
+	}
+	
+	.featured {
+		margin-top: 20px;
+	}
 }
