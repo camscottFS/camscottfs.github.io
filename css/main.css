@@ -2,6 +2,33 @@
 ============================================================
 ============================================================*/
 
+/* Animation */
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    width: 965px;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 965px;
+  }
+}
+
+@keyframes gold {
+    from {
+		background: #333333;
+		border: 1px solid #333333;
+	}
+    to {
+		background: #009BFF;
+		border: 1px solid #009BFF;
+	}
+}
+
+/* End Animation */
+
 body {
 	background: #252525;
 	color: #0082d6;
@@ -118,6 +145,8 @@ span {
 /* ABOUT ============================== */
 
 #about {
+	animation-duration: 1s;
+  	animation-name: slidein;
 	background: #333333;
 	width: 965px;
 	height: 100%;
@@ -148,7 +177,21 @@ span {
 	padding: 2px 4px 2px 4px;
 }
 
+.gold {
+	animation-iteration-count: infinite;
+	animation-duration: 7s;
+  	animation-name: gold;
+	background: #333333;
+	width: 965px;
+	height: 100%;
+	margin: 20px auto;
+	border: 1px solid #333333;
+	border-radius: 3px;
+}
+
 .components {
+	animation-duration: 1s;
+  	animation-name: slidein;
 	background: #333333;
 	width: 965px;
 	height: 100%;
@@ -267,6 +310,18 @@ footer p {
 	}
 	
 	.components {
+		background: #333333;
+		width: 100%;
+		height: 100%;
+		margin: 20px auto;
+		border: 1px solid #333333;
+		border-radius: 3px;
+	}
+	
+	.gold {
+		animation-iteration-count: infinite;
+		animation-duration: 7s;
+  		animation-name: gold;
 		background: #333333;
 		width: 100%;
 		height: 100%;
